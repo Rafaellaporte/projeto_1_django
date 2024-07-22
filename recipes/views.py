@@ -5,7 +5,10 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('HOME 1')  # Pagina Home
+    return render(request, 'home.html')  # Pagina Home
+
+# def home(request):
+#     return HttpResponse('Home')  # Pagina Home
 
 
 def sobre(request):
