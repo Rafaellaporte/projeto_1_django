@@ -3,5 +3,5 @@ from recipes.views import home
 
 urlpatterns = [
     path('', home),  # Home
-    # path('recipes/', home),  # Home
+    # path('recipes/', home),  # Exemplo
 ]

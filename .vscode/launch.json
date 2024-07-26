@@ -13,6 +13,9 @@
                 "runserver"
             ],
             "django": true,
+            // "env": {
+            //     "VIRTUAL_ENV": "/home/rafael/projetos_django_1/venv"
+            // },
             "autoStartBrowser": true,
             "program": "${workspaceFolder}\\manage.py"
         }
